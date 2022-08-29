@@ -6,11 +6,11 @@
 Plugin Name: WP To Do
 Plugin URI: https://artem-portfolio-fsorcin.vercel.app
 Description: A full featured plugin for creating and managing a "to do" list.
-Version:0.0.1
+Version:1.0.1
 Author: Artem Syvko
 Author URI: https://artem-portfolio-fsorcin.vercel.app
 License: GPLv2 or later
-Text Domain: wptodo
+Text Domain: artem.wptodo
 */
 /*
 This program is free software; you can redistribute it and/or

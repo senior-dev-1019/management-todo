@@ -11,7 +11,7 @@
 				<td><label for="matodo_description">Description:</label></td>
 				<td><textarea name="matodo_description" id="matodo_description" placeholder="Enter Description" required></textarea></td>
 			</tr>
-			<tr class="hidden">
+			<tr class="hidden" style="display: none;">
 				<td><label for="matodo_deadline">Deadline:</label></td>
 				<td><input name="matodo_deadline" id="matodo_deadline" value="2022-12-31" type="date" required /></td>
 			</tr>
@@ -28,7 +28,7 @@
 					</select>
 				</td>
 			</tr>
-			<tr class="hidden">
+			<tr class="hidden" style="display: none;">
 				<td><label for="matodo_priority">Priority:</label></td>
 				<td>
 					<select name="matodo_priority" id="matodo_priority" required>
@@ -39,7 +39,7 @@
 					</select>
 				</td>
 			</tr>
-			<tr class="hidden">
+			<tr class="hidden" style="display: none;">
 				<td><label for="matodo_notify">Send alerts</label></td>
 				<td><input name="matodo_notify" id="matodo_notify" value="1" type="checkbox" /></td>
 			</tr>

@@ -1,7 +1,7 @@
 <br>
 <h2><?php _e("Task #$id", 'matodo'); ?></h2>
 <br>
-<div class="hidden" id="timer"></div>
+<div class="hidden" id="timer" style="display: none;"></div>
 <br>
 <h5 class="title"><?php echo $matodo_view_item['0']->title; ?></h5>
 <p class="desc"><?php echo $matodo_view_item['0']->desc; ?></p>
@@ -44,6 +44,3 @@ if ($matodo_view_item_comments) {
 </tr>
 </table>
 <!--table Ends-->
-<?php
-\Inc\Pages\Admin::matodo_countdown_timer(self::matodo_date($matodo_view_item['0']->until), $matodo_view_item['0']->status);
-?>

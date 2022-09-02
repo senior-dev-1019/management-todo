@@ -1,10 +1,10 @@
 <?php
 /**
-* @package wptodo
+* @package managetodo
 */
-namespace Inc\Api;
+namespace Inc\Setting;
 
-class SettingsApi
+class SettingClass
 {
 	public $admin_pages = array();
 	public $admin_subpages = array();

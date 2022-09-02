@@ -1,6 +1,6 @@
 <?php
 /**
-* @package wptodo
+* @package managementtodo
 */
 
 namespace Inc;
@@ -10,6 +10,10 @@ final class Init
 	
 	private static function get_services(){
 		return [
+			Pages\Admin::class,
+			Basic\Enqueue::class,
+			Basic\SettingLinks::class,
+			Basic\Model::class
 		];
 	}
 

@@ -3,17 +3,16 @@
 *
 * Trigger this file on Plugin uninstall
 *
-* @package wptodo
+* @package managementtodo
 */
 
 if(! defined('WP_UNINSTALL_PLUGIN')){
 	die;
 }
 global $wpdb;
-$wptodo_table = $wpdb->prefix . "wptodo";
-$wptodo_comments_table = $wpdb->prefix . "wptodo_comments";
-$wptodo_email_table = $wpdb->prefix . "wptodo_email";
-$tables = array($wptodo_table,$wptodo_comments_table, $wptodo_email_table);
+$matodo_table = $wpdb->prefix . "matodo";
+$matodo_comments_table = $wpdb->prefix . "matodo_comments";
+$tables = array($matodo_table,$matodo_comments_table);
 	foreach ($tables as $table) {
 		$wpdb->query("DROP TABLE IF EXISTS `$table`");
 	}
